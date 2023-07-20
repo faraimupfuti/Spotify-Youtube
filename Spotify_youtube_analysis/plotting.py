@@ -19,13 +19,15 @@ container = st.container()
 
 st.write("Main data file: Spotify_Youtube.csv")
 # st.subheader("Choose one csv file to upload")
-uploaded_file1 = st.file_uploader('Choose a CSV file', type=['csv'], key="1")
-if uploaded_file1:
-    st.markdown("----")
-    df2 = pd.read_csv(uploaded_file1)
-    st.dataframe(df2)
-    # file_name = uploaded_file.n
-    # container.write()
+# uploaded_file1 = st.file_uploader('Choose a CSV file', type=['csv'], key="1")
+# if uploaded_file1:
+#     st.markdown("----")
+#     df2 = pd.read_csv(uploaded_file1)
+#     st.dataframe(df2)
+
+df = pd.read_csv('Spotify_youtube_analysis/Spotify_Youtube.csv')
+st.dataframe(df)
+container.write(df)
 
 # file uploads
 # st.write("Manipulated new data file for analysis: Artist_performance_popularity.csv")
