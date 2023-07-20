@@ -9,6 +9,7 @@ import pandas as pd
 # page title
 st.set_page_config(page_title="Spotify Kaggle Data Plots")
 st.title("Spotify-Top 13 singing artists on Youtube Plots 📈")
+st.subheader("Spotify_Youtube music and popularity data analysis")
 
 # file uploads
 container = st.container()
