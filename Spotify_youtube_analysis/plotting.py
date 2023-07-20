@@ -1,5 +1,5 @@
 '''
-Steamlit plots to show musicality, top views and streams of top 13 artists worldwide for their top 10 tracks from Youtube and Spotify
+Steamlit plots to show musicality, top views and streams of top 13 most streamed artists worldwide for their top 10 tracks from Youtube and Spotify
 '''
 
 # imports
@@ -97,7 +97,6 @@ st.write('''
 - Posted by - Swati Mishra
 - Posted on - 20-07-2023
 ''')
-# st.write("- Posted on - 20-07-2023")
 
 #----End of Plotting.py file----------------------------------------------------------------
 # Coder: Swati Mishra
