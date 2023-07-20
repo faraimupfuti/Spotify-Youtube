@@ -6,10 +6,6 @@ Steamlit plots to show musicality, top views and streams of top 13 artists world
 import streamlit as st
 import pandas as pd
 
-# from data_cleaning import 
-# from musicalilty import musicality_plots
-# from 
-
 # page title
 st.set_page_config(page_title="Spotify Kaggle Data Plots")
 st.title("Spotify-Top 13 singing artists on Youtube Plots 📈")
@@ -25,7 +21,7 @@ st.write("Main data file: Spotify_Youtube.csv")
 #     df2 = pd.read_csv(uploaded_file1)
 #     st.dataframe(df2)
 
-df = pd.read_csv('Spotify_Youtube.csv')
+df = pd.read_csv('Spotify_youtube_analysis/Spotify_Youtube.csv')
 st.dataframe(df)
 # container.write(df)
 
