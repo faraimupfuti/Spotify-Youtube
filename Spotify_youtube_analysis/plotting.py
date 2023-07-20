@@ -40,18 +40,18 @@ if uploaded_file1:
 # col1, col2 = st.columns([3,3], gap="small")
 st.write("**Bar graphs**") #** bolds the string
 st.write("Showing Danceability, Energy and Liveness:")
-st.image("dance.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
+st.image("Spotify_youtube_analysis/dance.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 st.write("Showing Loudness and Speechiness:")
-st.image("loudness.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
+st.image("Spotify_youtube_analysis/loudness.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 
 st.write("Showing Valence, Acousticness and Instrumentalness:")
-st.image("valence.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
+st.image("Spotify_youtube_analysis/valence.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 st.write("Showing Tempo and Key:")
-st.image("tempo.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
+st.image("Spotify_youtube_analysis/tempo.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 
 st.write("**Line graph**")
 st.write("Showing Views, Stream, Likes, Comments and Duration_in_milliseconds:")
-st.image("views_streams.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
+st.image("Spotify_youtube_analysis/views_streams.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 
 # Reports
 st.write("Analysis report")
