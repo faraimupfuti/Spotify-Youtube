@@ -8,7 +8,7 @@ import pandas as pd
 
 # page title
 st.set_page_config(page_title="Spotify Kaggle Data Plots")
-st.title("Spotify-Top 13 most streamed singing artists on Youtube Plots 📈")
+st.title("Spotify-Top 13 most streamed singing artists worldwide on Youtube: Plots 📈")
 st.subheader("Spotify_Youtube music and popularity data analysis")
 
 # file uploads
@@ -24,7 +24,6 @@ st.write("Main data file: Spotify_Youtube.csv")
 
 df = pd.read_csv('Spotify_youtube_analysis/Spotify_Youtube.csv')
 st.dataframe(df)
-# container.write(df)
 
 # file uploads
 # st.write("Manipulated new data file for analysis: Artist_performance_popularity.csv")
