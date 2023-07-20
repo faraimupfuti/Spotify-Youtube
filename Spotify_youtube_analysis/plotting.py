@@ -25,9 +25,9 @@ st.write("Main data file: Spotify_Youtube.csv")
 #     df2 = pd.read_csv(uploaded_file1)
 #     st.dataframe(df2)
 
-df = pd.read_csv('Spotify_youtube_analysis/Spotify_Youtube.csv')
+df = pd.read_csv('Spotify_Youtube.csv')
 st.dataframe(df)
-container.write(df)
+# container.write(df)
 
 # file uploads
 # st.write("Manipulated new data file for analysis: Artist_performance_popularity.csv")
