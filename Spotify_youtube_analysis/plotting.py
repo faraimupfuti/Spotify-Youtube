@@ -93,7 +93,7 @@ Conclusion:
 ''')
 
 
-st.write("- By Swati Mishra")
+st.write("- By Swati Mishra", "\n", ""*2, "20-07-2023")
 
 #----End of Plotting.py file----------------------------------------------------------------
 # Coder: Swati Mishra
