@@ -93,8 +93,11 @@ Conclusion:
 ''')
 
 
-st.write("- Posted by - Swati Mishra")
-st.write("- Posted on - 20-07-2023")
+st.write('''
+- Posted by - Swati Mishra
+- Posted on - 20-07-2023
+''')
+# st.write("- Posted on - 20-07-2023")
 
 #----End of Plotting.py file----------------------------------------------------------------
 # Coder: Swati Mishra
