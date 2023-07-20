@@ -1,5 +1,6 @@
 '''
-Steamlit plots to show musicality, top views and streams of top 13 most streamed artists worldwide for their top 10 tracks from Youtube and Spotify
+Steamlit dashboard to show Python Pandas and Matplotlib charts data analysis and visualization
+on musicality, top views and streams of top 13 most streamed artists worldwide for their top 10 tracks from Youtube and Spotify
 '''
 
 # imports
@@ -9,7 +10,7 @@ import pandas as pd
 # page title
 st.set_page_config(page_title="Spotify Kaggle Data Plots")
 st.title("Spotify-Top 13 most streamed singing artists worldwide on Youtube: Plots 📈")
-st.subheader("Spotify_Youtube music and popularity data analysis")
+st.subheader("Spotify_Youtube music and popularity data analysis using Matplotlib visualization")
 
 # file uploads
 container = st.container()
