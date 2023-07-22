@@ -20,7 +20,7 @@ Analysis Report:
 3. It's important to have good combination of valence, energy and liveness in one's tracks with significant accousticness
    to achieve consistency in views and streams.
 4. However, having high energy, high loudness, and high danceability can give you very high streams for certain videos
-   compared to even consistent artists, but it can't ensure consistency in high views.
+   compared to even consistent artists like in case of XXXTENTACION, but it can't ensure consistency in high views.
 ''')
 
 # file uploads
