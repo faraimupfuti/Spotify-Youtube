@@ -12,7 +12,7 @@ st.set_page_config(page_title="Spotify Kaggle Data Plots")
 st.title("Spotify-Top 13 most streamed singing artists worldwide on Youtube: Plots 📈")
 st.subheader("Spotify_Youtube music and popularity data analysis using Matplotlib visualization")
 
-st.write(st.write('''
+st.write('''
 Analysis Report:
 1. Post malone and Ed sheeran are most listened artists and Ed sheeran is the most viewed artist for total 10 tracks.
 2. Bruno mars, Coldplay, Justin bieber and Ed sheeran have the least gap in their streams and views and have consistency
@@ -21,7 +21,7 @@ Analysis Report:
    to achieve consistency in views and streams.
 4. However, having high energy, high loudness, and high danceability can give you very high streams for certain videos
    compared to even consistent artists, but it can't ensure consistency in high views.
-'''))
+''')
 
 # file uploads
 container = st.container()

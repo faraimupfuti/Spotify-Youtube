@@ -1,6 +1,6 @@
 '''
-Module for data processing and plotting musicality: Horizontal bar graph plots to show musicality, top views and streams of top 13 artists worldwide for their
-top 10 tracks from Youtube and Spotify
+Module for data manipulation and plotting musicality: Horizontal bar graph plots to show musicality, top views and streams
+of top 13 worldwide artists for their top 10 tracks from Youtube and Spotify
 By Swati Mishra
 20-7-2023
 '''
