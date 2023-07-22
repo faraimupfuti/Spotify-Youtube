@@ -18,7 +18,7 @@ def musicality_plots(file_name):
 	pdf1 = pdf.drop(columns=['Views', 'Likes', 'Comments'])
 	pdf2 = pdf1[pdf1['Artists'] == "Joey Bada$$"].replace("Joey Bada$$", "Joey Badass")
 	pdf1.update(pdf2)
-	
+
 	base = pow(10, len(str(round(pdf1['Stream'].max()))))
 	pdf1['Stream'] = pdf1['Stream'].apply(lambda x: (round((x/base)*100))) # great replacement method # d1 got updated
 

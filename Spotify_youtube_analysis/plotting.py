@@ -12,10 +12,21 @@ st.set_page_config(page_title="Spotify Kaggle Data Plots")
 st.title("Spotify-Top 13 most streamed singing artists worldwide on Youtube: Plots 📈")
 st.subheader("Spotify_Youtube music and popularity data analysis using Matplotlib visualization")
 
+st.write(st.write('''
+Analysis Report:
+1. Post malone and Ed sheeran are most listened artists and Ed sheeran is the most viewed artist for total 10 tracks.
+2. Bruno mars, Coldplay, Justin bieber and Ed sheeran have the least gap in their streams and views and have consistency
+   in their top 10 hits on Spotify and Youtube respectively.
+3. It's important to have good combination of valence, energy and liveness in one's tracks with significant accousticness
+   to achieve consistency in views and streams.
+4. However, having high energy, high loudness, and high danceability can give you very high streams for certain videos
+   compared to even consistent artists, but it can't ensure consistency in high views.
+'''))
+
 # file uploads
 container = st.container()
 
-st.write("Main data file: Spotify_Youtube.csv")
+st.write("Data source: Spotify_Youtube.csv")
 # st.subheader("Choose one csv file to upload")
 # uploaded_file1 = st.file_uploader('Choose a CSV file', type=['csv'], key="1")
 # if uploaded_file1:
@@ -64,7 +75,7 @@ st.write(
    highest accousticness and instrumentalness with significant danceability and energy is one of the top 13 streamed artist.
 3. Dua lipa with lowest danceabilty, highest energy and average liveness, significant speechiness and average loudness,
    highest valence equal to maroon 5 and greater than bruno, justin and ed sheeran,
-   lowest accousticness and negligible or none instrumentalness in her tracks, is one of the top 13 streamed artists.
+   lowest accousticness and no instrumentalness in her tracks, is one of the top 13 streamed artists.
 4. Bruno, Maroon 5 and dua lipa have the highest valence in their songs.
 5. Imagine dragons have highest liveness and second highest energy.
 6. Ariana has highest tempo, good valence and accousticness, significant loudness and one of the highest speechiness,
@@ -87,15 +98,20 @@ st.write(
 st.write('''
 Conclusion:
 1. Post malone and Ed sheeran are most listened artists and Ed sheeran is the most viewed artist for total 10 tracks.
-   This isn't a proof of consistency but of total performance.
 2. Bruno mars, Coldplay, Justin bieber and Ed sheeran have the least gap in their streams and views and have consistency
    in their top 10 hits on Spotify and Youtube respectively.
+3. It's important to have good combination of valence, energy and liveness in one's tracks with significant accousticness
+   to achieve consistency in views and streams.
+4. However, having high energy, high loudness, and high danceability can give you very high streams for certain videos
+   compared to other artists, but it can't ensure consistency in high views.
 ''')
 
+st.write("This isn't a proof of consistency but of total performance of top 10 tracks")
 
 st.write('''
 - Posted by - Swati Mishra
 - Posted on - 20-07-2023
+- Tech stack used - Python, Pandas, Maplotlib, Streamlit cloud, VScode version control, GitHub repository
 ''')
 
 #----End of Plotting.py file----------------------------------------------------------------
