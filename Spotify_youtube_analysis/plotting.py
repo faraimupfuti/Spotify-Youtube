@@ -35,7 +35,7 @@ st.dataframe(df)
 #     st.dataframe(df2)
 
 # codes
-st.write("- **Code Snippets**")
+st.write("- **Code Snippets:**")
 col1, col2 = st.columns([3,1])
 col1.image("Spotify_youtube_analysis/cleaning.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 col2.image("Spotify_youtube_analysis/manipulation.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
@@ -123,7 +123,7 @@ st.write(
 )
 
 st.write('''
-Final Conclusion:
+- **Final Conclusion:**
 1. Post malone and Ed sheeran are most listened artists and Ed sheeran is the most viewed artist for total 10 tracks.
 2. Bruno mars, Coldplay, Justin bieber and Ed sheeran have the least gap in their streams and views showing consistent
    appreciation for both videos and streams in their top 10 hits on Spotify and Youtube respectively.
