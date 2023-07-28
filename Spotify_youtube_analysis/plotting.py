@@ -90,7 +90,7 @@ Points: Among most streamed artists,
 ''')
 
 # Reports
-st.write("Final Analysis reports")
+st.write("- **Final Analysis reports**")
 st.write("a) Bar graphs")
 st.write(
 '''
