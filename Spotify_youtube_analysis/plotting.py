@@ -34,8 +34,13 @@ st.dataframe(df)
 #     df2 = pd.read_csv(uploaded_file2)
 #     st.dataframe(df2)
 
+# codes
+col1, col2 = st.columns([3,3], gap="small")
+col1.image("Spotify_youtube_analysis/cleaning.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
+col2.image("Spotify_youtube_analysis/manipulation.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
+st.image("Spotify_youtube_analysis/line.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
+
 # Dashboard plots
-# col1, col2 = st.columns([3,3], gap="small")
 st.write("**Bar graphs**") #** bolds the string
 st.write("A. Showing Danceability, Energy and Liveness of the top 13 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/dance.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
@@ -76,13 +81,13 @@ Analysis: Among most streamed artists,
 st.write("**Line graph**")
 st.write("Showing Views, Stream, Likes, Comments and Duration_in_milliseconds of the top 10 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/views_streams.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
-st.write("\x1B[3m"+'''
+st.write('''
 Analysis: Among most streamed artists,
 1) Almost everyone is similar in Likes, Comments and Duration_in_milliseconds of their top 10 tracks.
 2) Post Malone is the most streamed with third lowest views for their total 10 tracks.
    Ed sheeran is the most viewed and secong highest streamed artist.
 3) XXXTENTACION is the least viewed.
-'''+"\x1B[0m")
+''')
 
 # Reports
 st.write("Final Analysis reports")
