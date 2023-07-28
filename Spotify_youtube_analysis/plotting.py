@@ -37,7 +37,7 @@ st.dataframe(df)
 # Dashboard plots
 # col1, col2 = st.columns([3,3], gap="small")
 st.write("**Bar graphs**") #** bolds the string
-st.write("Showing Danceability, Energy and Liveness of the top 13 most streamed artists worldwide:")
+st.write("A. Showing Danceability, Energy and Liveness of the top 13 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/dance.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 st.write('''
 Analysis: Among most streamed artists,
@@ -46,7 +46,7 @@ Analysis: Among most streamed artists,
 3) Dua L and XXXTENTACION have surpassed Maroon 5, Ed Sheeran, Bruno and Ariana G for danceability in their tracks.
 ''')
 
-st.write("Showing Loudness and Speechiness of the top 13 most streamed artists worldwide:")
+st.write("B. Showing Loudness and Speechiness of the top 13 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/loudness.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 st.write('''
 Analysis: Among most streamed artists,
@@ -54,7 +54,7 @@ Analysis: Among most streamed artists,
 2) Ariana, Khalid, Justin B and XXXTENTACION have very high speechiness in their tracks compared to other top streamed artists.
 ''')
 
-st.write("Showing Valence, Acousticness and Instrumentalness of the top 13 most streamed artists worldwide:")
+st.write("C. Showing Valence, Acousticness and Instrumentalness of the top 13 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/valence.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 st.write('''
 Analysis: Among most streamed artists,
@@ -64,7 +64,7 @@ Analysis: Among most streamed artists,
 3) Billie E is an exception in accousticness.
 ''')
 
-st.write("Showing Tempo and Key of the top 13 most streamed artists worldwide:")
+st.write("D. Showing Tempo and Key of the top 13 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/tempo.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 st.write('''\x1B[3m
 Analysis: Among most streamed artists,
@@ -76,13 +76,13 @@ Analysis: Among most streamed artists,
 st.write("**Line graph**")
 st.write("Showing Views, Stream, Likes, Comments and Duration_in_milliseconds of the top 10 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/views_streams.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
-st.write('''\x1B[3m
+st.write("\x1B[3m"+'''
 Analysis: Among most streamed artists,
 1) Almost everyone is similar in Likes, Comments and Duration_in_milliseconds of their top 10 tracks.
 2) Post Malone is the most streamed with third lowest views for their total 10 tracks.
    Ed sheeran is the most viewed and secong highest streamed artist.
 3) XXXTENTACION is the least viewed.
-\x1B[0m''')
+'''+"\x1B[0m")
 
 # Reports
 st.write("Final Analysis reports")
