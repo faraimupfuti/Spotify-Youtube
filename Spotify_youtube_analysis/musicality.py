@@ -1,5 +1,5 @@
 '''
-Module for data manipulation and plotting musicality: Horizontal bar graph plots to show musicality, top views and streams
+Module for data manipulation and plotting musicality: Horizontal bar graph plots to show musicality
 of top 13 worldwide artists for their top 10 tracks from Youtube and Spotify
 By Swati Mishra
 20-7-2023
@@ -12,7 +12,7 @@ import pandas as pd
 # data manipulation
 def musicality_plots(file_name):
 	'''
-	function to analyse musical details of artist's tracks and plot barh graphs
+	function to analyse musical details of artist's top 10 tracks and plot barh graphs
 	'''
 	pdf = pd.read_csv(file_name)
 	pdf1 = pdf.drop(columns=['Views', 'Likes', 'Comments'])
@@ -20,9 +20,9 @@ def musicality_plots(file_name):
 	pdf1.update(pdf2)
 
 	base = pow(10, len(str(round(pdf1['Stream'].max()))))
-	pdf1['Stream'] = pdf1['Stream'].apply(lambda x: (round((x/base)*100))) # great replacement method # d1 got updated
+	pdf1['Stream'] = pdf1['Stream'].apply(lambda x: (round((x/base)*100)))
 
-	# Stream turns into logarithmic values causing errors. aaplying functions to clean
+	# Stream turns into logarithmic values causing errors. applying functions to clean
 	mdf = pdf1.nlargest(n=10, columns='Stream', keep='all')
 	artists = [f"{a}{mdf[mdf['Artists'] == a]['Stream'].values}" for a in mdf['Artists']]
 

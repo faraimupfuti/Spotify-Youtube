@@ -1,6 +1,6 @@
 '''
-Module for data processing and plotting views, streams, likes, comments, duration in milliseconds
-to show popularity of top 10 most streamed artists: Line graph to show data analysis of pupularity of most streamed artists
+Module to analyse processed data to plot views, streams, likes, comments, duration in milliseconds,
+to show popularity of top 10 most streamed artists: Line graph to show data analysis of popularity of most streamed artists.
 By Swati Mishra
 20-7-2023
 '''
@@ -14,8 +14,9 @@ def popularity_plot(file_name):
     funtion to read processed data and analyse it to plot line graph
     '''
     ydf = pd.read_csv(file_name)
-
-    max10 = ydf.nlargest(10, ['Stream'], keep='all') # returns whole df table with index positions
+    
+    # creating top 10 most streamed artists
+    max10 = ydf.nlargest(10, ['Stream'], keep='all')
     max10_views = max10['Views']
     max10_likes = max10['Likes']
     max10_comments = max10['Comments']
@@ -24,7 +25,7 @@ def popularity_plot(file_name):
     max10_artist = max10['Artists']
     max10_tracks = max10['Tracks']
 
-    # line grapgh plot
+    # line graph plot
     figure, axes = plt.subplots(figsize=(15,8))
 
     a1 = axes.plot(max10_views,max10_artist)

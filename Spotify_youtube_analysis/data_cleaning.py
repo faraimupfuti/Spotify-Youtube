@@ -1,5 +1,5 @@
 '''
-Module data wrangling: To clean and process all artists useful data from the source to a csv file for analysis and plotting.
+Module data wrangling: To clean and process artists' useful data from the source to a csv file for analysis and visualization.
 By Swati Mishra
 20-7-2023
 '''
