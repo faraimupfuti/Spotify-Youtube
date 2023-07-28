@@ -35,6 +35,7 @@ st.dataframe(df)
 #     st.dataframe(df2)
 
 # codes
+st.write("- **Code Snippets**")
 col1, col2 = st.columns([3,1])
 col1.image("Spotify_youtube_analysis/cleaning.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 col2.image("Spotify_youtube_analysis/manipulation.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
