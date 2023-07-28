@@ -71,12 +71,12 @@ Analysis: Among most streamed artists,
 
 st.write("D. Showing Tempo and Key of the top 13 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/tempo.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
-st.write('''\x1B[3m
+st.write('''
 Analysis: Among most streamed artists,
 1) Almost everyone is similar in tempo, but Ariana uses highest tempo in her songs and Ed Sheeran uses lowest.
 2) Imagine D and XXXTENTACION use high key comapared to other artists. XXXTENTACION tracks might be similar in genre to Imagine D.
 3) Bruno, Khalid and The Weekend use lowest key in their tracks.
-\x1B[0m''')
+''')
 
 st.write("**Line graph**")
 st.write("Showing Views, Stream, Likes, Comments and Duration_in_milliseconds of the top 10 most streamed artists worldwide:")
