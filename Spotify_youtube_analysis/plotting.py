@@ -41,11 +41,11 @@ col2.image("Spotify_youtube_analysis/manipulation.png", caption = None, width=10
 st.image("Spotify_youtube_analysis/line.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 
 # Dashboard plots
-st.write("**Bar graphs**") #** bolds the string
+st.write("- **Bar graphs**") #** bolds the string
 st.write("A. Showing Danceability, Energy and Liveness of the top 13 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/dance.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 st.write('''
-Analysis: Among most streamed artists,
+Points: Among most streamed artists,
 1) Justin B and Imagine D have the highest liveness despite having tracks in different genre.
 2) Maroon 5, Imagine D and Dua L have the highest energy in their tracks.
 3) Dua L and XXXTENTACION have surpassed Maroon 5, Ed Sheeran, Bruno and Ariana G for danceability in their tracks.
@@ -54,7 +54,7 @@ Analysis: Among most streamed artists,
 st.write("B. Showing Loudness and Speechiness of the top 13 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/loudness.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 st.write('''
-Analysis: Among most streamed artists,
+Points: Among most streamed artists,
 1) Billie E is an exception in loudness in her tracks. 
 2) Ariana, Khalid, Justin B and XXXTENTACION have very high speechiness in their tracks compared to other top streamed artists.
 ''')
@@ -62,7 +62,7 @@ Analysis: Among most streamed artists,
 st.write("C. Showing Valence, Acousticness and Instrumentalness of the top 13 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/valence.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 st.write('''
-Analysis: Among most streamed artists,
+Points: Among most streamed artists,
 1) Bruno M, Maroon 5 and Dua L have the highest valence in their songs.
 2) No one uses Intrumentalness in their songs, except Imagine D, Coldplay and Khalid with some instrumentation
    and Billie E with highest as their tracks are a bit similar in genre.
@@ -72,17 +72,17 @@ Analysis: Among most streamed artists,
 st.write("D. Showing Tempo and Key of the top 13 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/tempo.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 st.write('''
-Analysis: Among most streamed artists,
+Points: Among most streamed artists,
 1) Almost everyone is similar in tempo, but Ariana uses highest tempo in her songs and Ed Sheeran uses lowest.
 2) Imagine D and XXXTENTACION use high key comapared to other artists. XXXTENTACION tracks might be similar in genre to Imagine D.
 3) Bruno, Khalid and The Weekend use lowest key in their tracks.
 ''')
 
-st.write("**Line graph**")
+st.write("- **Line graph**")
 st.write("Showing Views, Stream, Likes, Comments and Duration_in_milliseconds of the top 10 most streamed artists worldwide:")
 st.image("Spotify_youtube_analysis/views_streams.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 st.write('''
-Analysis: Among most streamed artists,
+Points: Among most streamed artists,
 1) Almost everyone is similar in Likes, Comments and Duration_in_milliseconds of their top 10 tracks.
 2) Post Malone is the most streamed with third lowest views for their total 10 tracks.
    Ed sheeran is the most viewed and secong highest streamed artist.
