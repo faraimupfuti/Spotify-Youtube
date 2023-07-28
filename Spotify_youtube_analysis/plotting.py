@@ -128,7 +128,7 @@ st.write('''
 2. Bruno mars, Coldplay, Justin bieber and Ed sheeran have the least gap in their streams and views showing consistent
    appreciation for both videos and streams in their top 10 hits on Spotify and Youtube respectively.
 3. The views and streams analysed are based on total performance of top 10 tracks, and are not about the consistency.
-4. An artist can have extreme success on spotify streams, but very less on their youtube videos."
+4. An artist can have extreme success on spotify streams, but very less on their youtube videos.
 5. It's important to have good combination of valence, energy and liveness in one's tracks with significant accousticness
    to achieve consistency in views and streams.
 6. However, having high energy, high loudness, and high danceability can give you very high streams for certain songs
