@@ -5,4 +5,4 @@
 - Module plotting.py to plot the analysis on the streamlit server.
 - Run from the streamlit cloud.
 
-By Swati Mishra
+By Farai Mupfuti
